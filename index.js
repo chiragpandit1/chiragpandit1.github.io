@@ -8,6 +8,14 @@ var nonTrustedDomain_prod_apiKey = "nIulFOCL6huCgVTXTz3n-CrKSuuH91FnMGmPvKoNs8U"
 // myApiKey = myApiKey_nonTrustedDomain_sit;
 myApiKey = myApiKey_trustedDomain_sit;
 
+//If an API Key is given in URL use that API key to render the HERE map eg. domain.com?apiKey=value, Use that value
+const urlParams = new URLSearchParams(window.location.search);
+const apiKeyInUrl = urlParams.get('apiKey');
+
+if (apiKeyInUrl != null) {
+    myApiKey = apiKeyInUrl;
+}
+
 // Custom configuration for MapsJS Vector tiles API
 const domainConfig = {};
 const getoptions = {
@@ -31,8 +39,8 @@ var platform = new H.service.Platform({
 var defaultLayers = platform.createDefaultLayers();
 
 var map = new H.Map(document.getElementById('map'), defaultLayers.vector.normal.map, {
-    center: {lat: 52.496, lng: 13.382},
-    zoom: 11,
+    center: {lat: 40.73861464466027, lng: -73.89351293268845},
+    zoom: 11.277659053146774,
     pixelRatio: window.devicePixelRatio || 1
 });
 window.addEventListener('resize', () => map.getViewPort().resize());
