@@ -1,10 +1,12 @@
+// Link to JSFiddle - https://jsfiddle.net/chiragpandit/7cqdjnbf/2/
+
 var myApiKey_nonTrustedDomain_sit = "15Ipv8XF0HaMa-KZXRMo7fycVKviEOuXflhKQACHPnQ"
 var myApiKey_trustedDomain_sit = "tRdgyeKm9ciQb6Z4fC-zU0zolHSQ37fAKZ_BMJbOjM0"
 var nonTrustedDomain_prod_apiKey = "nIulFOCL6huCgVTXTz3n-CrKSuuH91FnMGmPvKoNs8U"
 
 /* myApiKey = nonTrustedDomain_prod_apiKey; */
-myApiKey = myApiKey_nonTrustedDomain_sit;
-/* myApiKey = myApiKey_trustedDomain_sit; */
+// myApiKey = myApiKey_nonTrustedDomain_sit;
+myApiKey = myApiKey_trustedDomain_sit;
 
 // Custom configuration for MapsJS Vector tiles API
 const domainConfig = {};
