@@ -1,12 +1,41 @@
 <html>
+
 <head>
-    <title>v1.0.0</title>
+    <title>v1.0 - Enabling Trusted domains for API Keys</title>
+    <meta name="referrer" content="origin">
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-core.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-service.js"></script>
+    <script type="text/javascript" src="https://js.api.here.com/v3/3.1/mapsjs-mapevents.js"></script>
+    <link href="demo.css" rel='stylesheet' />
+
+    <style>
+        * {
+            font-family: 'Arial';
+        }
+
+        #map {
+            width: 95%;
+            height: 450px;
+            background: grey;
+        }
+
+        #panel {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
 </head>
 <body>
-    This page is loaded
-    Check the console...
+<div class="page-header">
+    <h1>Trusted domains testing for Platform API Keys</h1>
+    <p></p>
+</div>
+<p>This example displays how to render HERE Vector Tile with HERE Maps API for JavaScript libraries</p>
+<p>Note : This currently uses SIT instance of platform for loading MapsJS vector tiles </p>
 
-    Updated IML Api
-    <script type="text/javascript" src="index.js"></script>
+<div id="map"></div>
+<script src="index.js"></script>
 </body>
 </html>
+
+
