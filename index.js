@@ -11,7 +11,8 @@ myApiKey = myApiKey_trustedDomain_sit;
 // Custom configuration for MapsJS Vector tiles API
 const domainConfig = {};
 const getoptions = {
-    apikey: myApiKey
+    apikey: myApiKey,
+    ts: Date.now()
 };
 
 // Vector Tile service
