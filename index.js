@@ -2,7 +2,7 @@
 
 var myApiKey_nonTrustedDomain_sit = "15Ipv8XF0HaMa-KZXRMo7fycVKviEOuXflhKQACHPnQ"
 var myApiKey_trustedDomain_sit = "tRdgyeKm9ciQb6Z4fC-zU0zolHSQ37fAKZ_BMJbOjM0"
-var MYTrustedDomain_sit_apiKey2 = "HgSiz88TD3fSz_MLnJiq4WtlSFBWzaE_XUlPnHZ4vHM"
+var MYTrustedDomain_sit_apiKey2 = "Oz3LzxmAzFQtqn-PdW0PC8z4clblaee86w6mwKvSGy0"
 var nonTrustedDomain_prod_apiKey = "nIulFOCL6huCgVTXTz3n-CrKSuuH91FnMGmPvKoNs8U"
 
 /* myApiKey = nonTrustedDomain_prod_apiKey; */
