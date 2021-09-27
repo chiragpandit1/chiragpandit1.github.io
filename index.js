@@ -2,11 +2,13 @@
 
 var myApiKey_nonTrustedDomain_sit = "15Ipv8XF0HaMa-KZXRMo7fycVKviEOuXflhKQACHPnQ"
 var myApiKey_trustedDomain_sit = "tRdgyeKm9ciQb6Z4fC-zU0zolHSQ37fAKZ_BMJbOjM0"
+var MYTrustedDomain_sit_apiKey2 = "HgSiz88TD3fSz_MLnJiq4WtlSFBWzaE_XUlPnHZ4vHM"
 var nonTrustedDomain_prod_apiKey = "nIulFOCL6huCgVTXTz3n-CrKSuuH91FnMGmPvKoNs8U"
 
 /* myApiKey = nonTrustedDomain_prod_apiKey; */
 // myApiKey = myApiKey_nonTrustedDomain_sit;
-myApiKey = myApiKey_trustedDomain_sit;
+// myApiKey = myApiKey_trustedDomain_sit;
+myApiKey = MYTrustedDomain_sit_apiKey2;
 
 //If an API Key is given in URL use that API key to render the HERE map eg. domain.com?apiKey=value, Use that value
 const urlParams = new URLSearchParams(window.location.search);
