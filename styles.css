@@ -1,0 +1,28 @@
+.jumbotron {
+    padding: 10px 0px;
+    background: linear-gradient(
+            45deg, #39417d, #ff3030);
+    color: #FFF;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 0px;
+    box-shadow: 0px 0px 42px 0px #000 inset;
+}
+
+#profilePicture {
+    position: absolute;
+    height: 200px;
+    border: 7px solid white;
+    box-shadow: 0px 0px 7px 0px #000;
+    border-radius: 107px;
+    top: 39px;
+}
+
+.pill {
+    background: #000;
+    border: #000;
+    padding: 7px;
+    color: white;
+    margin: 2px;
+    line-height: 2.5;
+    border-radius: 23px;
+}
